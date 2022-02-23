@@ -8,7 +8,9 @@ public class SupplierDemo {
 
     public static void main(String[] args){
 
-        Supplier<String> supplier = () -> "Im supplier" ;
+        Supplier<String> supplier = () -> "Im supplier" ; // Its supplier of String
+
+        Supplier<Integer> supplierOfInteger = () -> 100 ;  // Its supplier of Integer
         //System.out.println(supplier.get());
 
         List<String> list = Arrays.asList("a", "b", "c");

@@ -14,9 +14,11 @@ public class ComsumerDemo {
 
 
         List<Integer> list = Arrays.asList(1,3,8,2,7,4,9,6);
-        list.forEach(list1-> System.out.println(list1));
+        list.forEach(list1-> System.out.println(list1));  // using lambda expression
+
         System.out.println("-------------------");
-        list.stream().forEach(consumer);
+
+        list.stream().forEach(consumer); // using stream
 
 
     }
