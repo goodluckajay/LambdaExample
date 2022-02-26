@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+// Sample DB for testing
 public class ResourceDB {
 
     public static List<Resource> getAllResource(){
